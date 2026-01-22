@@ -5,7 +5,7 @@
 **Öğrenci Numarası:** 2507020016  
 **Ders Adı:** Matematik  
 **Dosya:** `soru-1.cpp`  
-**Website:** [https://kadirmatemodev-1.vercel.app](https://kadirmatemodev-1.vercel.app)
+**Website:** [kadirmatemodev-1.vercel.app](https://kadirmatemodev-1.vercel.app)
 
 ---
 
