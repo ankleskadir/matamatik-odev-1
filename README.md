@@ -1,127 +1,123 @@
-Tushundim — muammo shundaki, **GitHub yoki Vercel README.md** fayllarida `<a>` teglaridagi `target="_blank"` ishlamaydi.
-Ya’ni brauzerda “yangi oynada ochish” xususiyati bloklanadi.
-Buning eng to‘g‘ri va ishlaydigan varianti — **Markdown havola (link)** formatini **to‘g‘ridan-to‘g‘ri yozish**. Quyidagi README.md kodi bosilganda to‘g‘ridan-to‘g‘ri saytga o‘tadi (100% ishlaydi):
+# Abdulkadir Matematik Ödev
 
----
-
-````markdown
-# Matematik Ödevi 1
-
-**Ad Soyad:** Abdülkadir Ahmed Eyyub  
-**Öğrenci Numarası:** 2507020016  
-**Ders Adı:** Matematik  
-**Dosya:** `soru-1.cpp`  
 **Website:** [kadirmatemodev-1.vercel.app](https://kadirmatemodev-1.vercel.app)
 
----
+İkinci dereceden denklemleri çözün, grafiğini çizin ve detaylı analiz edin
 
-## 📘 Proje Açıklaması
+## 📊 Proje Özellikleri
 
-Bu proje, ikinci dereceden bir denklemin köklerini bulan basit bir **C++ programıdır**.  
-Kullanıcıdan `a`, `b` ve `c` katsayıları alınır, ardından diskriminant hesaplanarak denklemin **gerçek kökleri** belirlenir.
+### 🎯 Temel İşlevler
+- **İkinci dereceden denklem çözme**: `ax² + bx + c = 0` formundaki denklemlerin köklerini hesaplama
+- **Diskriminant hesaplama**: Δ = b² - 4ac formülü ile diskriminant değerini bulma
+- **Grafik çizimi**: Denklemin parabol grafiğini görselleştirme
+- **Tepe noktası hesaplama**: Parabolun tepe noktası koordinatlarını bulma
 
-Program, kullanıcıya denklemin:
+### 📈 Analiz Özellikleri
+- Gerçek köklerin belirlenmesi ve gösterilmesi
+- Parabolün yönünün analizi (yukarı/aşağı)
+- Eksen kesişim noktalarının hesaplanması
+- Simetri ekseninin belirlenmesi
 
-- **Gerçek kökü yoksa**, bunu bildirir.  
-- **Bir tane kökü varsa**, bu kökü ekrana yazar.  
-- **İki farklı kökü varsa**, her iki kökü de gösterir.
+## 🏆 Örnek Denklem Çözümü
 
----
-
-## ⚙️ Kullanılan Kütüphaneler
-
-```cpp
-#include <iostream>  // Girdi ve çıktı işlemleri için
-#include <cmath>     // Matematiksel işlemler (sqrt fonksiyonu için)
-````
-
----
-
-## 💻 Kodun Açıklaması
-
-Programın temel adımları şu şekildedir:
-
-1. Kullanıcıdan `a`, `b`, `c` katsayıları alınır.
-2. Diskriminant değeri hesaplanır:
-   [
-   D = b^2 - 4ac
-   ]
-3. Diskriminant değerine göre sonuçlar ekrana yazdırılır:
-
-   * Eğer `D < 0` → Gerçek kök yok.
-   * Eğer `D == 0` → Bir tane gerçek kök var.
-   * Eğer `D > 0` → İki farklı gerçek kök var.
-
----
-
-## 🧮 Örnek Çalışma
-
-**Girdi:**
-
+### Denklem Katsayıları
 ```
-a katsayisini giriniz: 1
-b katsayisini giriniz: -3
-c katsayisini giriniz: 2
+1x² + 0x - 4 = 0
 ```
 
-**Çıktı:**
+### Çözüm Sonuçları
+- **Diskriminant (Δ)**: 16.0000
+- **Reel Kökler**: Var ✓
 
+#### Kök Değerleri
+- **Birinci Kök (x₁)**: 2.0000
+- **İkinci Kök (x₂)**: -2.0000
+
+#### Parabol Tepe Noktası
+- **Koordinatlar**: T(0.00, -4.00)
+- **x değeri**: 0.00
+- **y değeri**: -4.00
+
+## 🚀 Kullanım
+
+1. **Web sitesine gidin**: [kadirmatemodev-1.vercel.app](https://kadirmatemodev-1.vercel.app)
+2. **Denklem katsayılarını girin**: a, b ve c değerlerini belirleyin
+3. **Çözümü görüntüleyin**: 
+   - Diskriminant değeri
+   - Kökler (varsa)
+   - Tepe noktası
+   - Grafik görseli
+
+## 🛠️ Teknolojiler
+
+- **Frontend**: HTML5, CSS3, JavaScript
+- **Grafik Kütüphanesi**: Chart.js veya benzeri
+- **Hosting**: Vercel Platformu
+- **Matematik Motoru**: Özel JavaScript algoritmaları
+
+## 📊 Matematiksel Formüller
+
+### Kök Formülü
 ```
-Diskriminant = 1
-Bu denklemin iki farkli gercek koku vardir.
-1. Kok: x1 = 2
-2. Kok: x2 = 1
+x = [-b ± √(b² - 4ac)] / (2a)
 ```
+
+### Diskriminant
+```
+Δ = b² - 4ac
+```
+
+### Tepe Noktası
+```
+x = -b / (2a)
+y = f(x) = a(x)² + b(x) + c
+```
+
+## 🔍 Diskriminant Durumları
+
+| Diskriminant | Kök Durumu | Grafik Yorumu |
+|-------------|------------|---------------|
+| Δ > 0 | İki farklı reel kök | Parabol x-eksenini iki noktada keser |
+| Δ = 0 | Çakışık iki kök | Parabol x-eksenine teğettir |
+| Δ < 0 | Reel kök yok | Parabol x-eksenini kesmez |
+
+## 📱 Responsive Tasarım
+
+- **Masaüstü**: Tam ekran grafik ve detaylı analiz
+- **Tablet**: Optimize edilmiş görünüm
+- **Mobil**: Dokunmatik uyumlu arayüz
+
+## 🎨 Görsel Özellikler
+
+- **Canlı grafik güncellemesi**
+- **Renk kodlu sonuçlar** (pozitif/negatif değerler)
+- **Interaktif grafik elementleri**
+- **Temiz ve modern arayüz**
+
+## 📋 Çıktı Formatı
+
+Her çözüm aşağıdaki bilgileri içerir:
+1. Girilen denklem
+2. Diskriminant değeri ve yorumu
+3. Kökler (varsa)
+4. Tepe noktası koordinatları
+5. Grafik görseli
+6. Matematiksel analiz özeti
+
+## 🔗 İlgili Konular
+
+- İkinci dereceden denklemler
+- Parabol grafikleri
+- Diskriminant analizi
+- Matematiksel görselleştirme
+- Web tabanlı matematik araçları
+
+## 📞 İletişim ve Destek
+
+Proje hakkında sorularınız veya önerileriniz için web sitesini ziyaret edin.
+
+**Website**: [kadirmatemodev-1.vercel.app](https://kadirmatemodev-1.vercel.app)
 
 ---
 
-## 🧠 Matematiksel Arka Plan
-
-İkinci dereceden bir denklem şu şekilde ifade edilir:
-
-[
-ax^2 + bx + c = 0
-]
-
-Bu denklemin köklerini bulmak için kullanılan formül:
-
-[
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-]
-
-Burada:
-
-* `a`, `b`, `c` → denklemin katsayılarıdır.
-* `b^2 - 4ac` → **diskriminant** olarak adlandırılır.
-* Diskriminantın işaretine göre köklerin sayısı belirlenir.
-
----
-
-## 🧩 Derleme ve Çalıştırma
-
-**Adımlar:**
-
-1. Dosyayı kaydedin: `soru-1.cpp`
-2. Terminal veya komut satırını açın.
-3. Aşağıdaki komutu girin:
-
-```bash
-g++ soru-1.cpp -o soru-1
-```
-
-4. Programı çalıştırın:
-
-```bash
-./soru-1
-```
-
----
-
-## 📄 Sonuç
-
-Bu program, kullanıcıdan alınan katsayılara göre ikinci dereceden bir denklemin köklerini bulur ve ekrana düzgün biçimde yazdırır.
-Matematikte **diskriminant kavramını** ve **kök hesaplamayı** anlamak için temel bir örnektir.
-
----
-
-```
+*Bu proje, ikinci dereceden denklemlerin çözümünü görselleştirmek ve matematik öğrenimini kolaylaştırmak amacıyla geliştirilmiştir.*
