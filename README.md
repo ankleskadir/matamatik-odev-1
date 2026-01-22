@@ -7,7 +7,7 @@
 **Ödev Numarası:** Ödev-1  
 **Teslim Tarihi:** 23 Ocak 2026  
 **Website:** [kadirmatemodev-1.vercel.app](https://kadirmatemodev-1.vercel.app)  
-**GitHub Repository:** [github.com/abdulkadir/matematik-odev](https://github.com/abdulkadir/matematik-odev)  
+**GitHub Repository:** [https://github.com/ankleskadir/matamatik-odev-1.git](https://github.com/ankleskadir/matamatik-odev-1.git)  
 **E-posta:** ankleshazar@gmail.com  
 **Bölüm:** Bilgisayar Mühendisliği  
 **Sınıf:** 1. Sınıf  
