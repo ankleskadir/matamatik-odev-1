@@ -1,14 +1,11 @@
-Aşağıda senin **matematik ödevi** için hazırlanmış, tamamen Türkçe ve düzgün biçimlendirilmiş bir `README.md` dosyası yer alıyor. Bu dosya GitHub’a veya okul teslim sistemine eklenmeye hazır biçimdedir.
-
----
-
 ````markdown
 # Matematik Ödevi 1
 
 **Ad Soyad:** Abdülkadir Ahmed Eyyub  
 **Öğrenci Numarası:** 2507020016  
 **Ders Adı:** Matematik  
-**Dosya:** `soru-1.cpp`
+**Dosya:** `soru-1.cpp`  
+**Website:** [https://kadirmatemodev-1.vercel.app](https://kadirmatemodev-1.vercel.app)
 
 ---
 
@@ -122,10 +119,4 @@ Matematikte **diskriminant kavramını** ve **kök hesaplamayı** anlamak için 
 ---
 
 ```
-
----
-
-İstersen README’ye görsel denklem, akış diyagramı veya program çıktısının ekran görüntüsünü ekleyebilirim.  
-Böylece ödevin hem daha profesyonel hem de öğretim görevlisine sunum açısından daha etkileyici olur.  
-İster misin ben bu görseli de ekleyeyim?
 ```
